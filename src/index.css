@@ -8,6 +8,25 @@
   box-sizing: border-box;
 }
 
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000300;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00df9a;
+  border-radius: 14px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: #000300;
 }

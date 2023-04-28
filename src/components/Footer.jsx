@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
     return (
-        <div className='max-w-[1240px] mx-auto py-16 px-4 grid md:grid-cols-3 gap-16 text-white'>
+        <div className='max-w-[1240px] mx-auto py-16 px-4 grid md:grid-cols-3 gap-16 text-white' id="about">
             <div>
                 <h1 className='w-full text-3xl font-bold text-[#00df9a] text-left'>REACT.</h1>
                 <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat minus perferendis libero voluptas dolorum, doloremque dolores ut modi amet error!</p>

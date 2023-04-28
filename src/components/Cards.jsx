@@ -19,7 +19,7 @@ const CreateCard = (props) => (
 
 const Cards = () => {
     return (
-        <div className='w-full py-[10rem] px-4 bg-white text-black'>
+        <div className='w-full py-[10rem] px-4 bg-white text-black' id="resources">
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
                 <CreateCard image={Single} title="Single User" price="$149" storage="500" users="1" limit="2"/>
 
